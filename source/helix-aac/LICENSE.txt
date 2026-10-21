@@ -1,0 +1,7 @@
+Helix AAC decoder - Portions Copyright (c) 1995-2005 RealNetworks, Inc.
+Licensed under the RealNetworks Public Source License (RPSL) or the RealNetworks
+Community Source License (RCSL); see the header of each source file and
+https://github.com/pschatzmann/arduino-libhelix (source of this copy).
+Local changes for r34view: ConfigHelix.h, utils/helix_pgm.h and utils/helix_memory.h
+replaced with minimal shims; assembly.h uses the portable C path on ARM GCC.
+Local change: sbr.c includes stdio.h (it calls printf on allocation failure).
